@@ -1,10 +1,10 @@
 # Site Info
-title: Codinfox Lanyon
-tagline: '훈이'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+title:
+tagline: '훈이의 블로그'
+description:
 baseurl: ""
-url: http://codinfox.github.io
-logo: '/public/logo.png'
+url: http://jeonghoon1107.github.io
+logo: ''
 
 # Site configurations
 plugins:
@@ -16,8 +16,8 @@ excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss
-paginate: 5
-paginate_path: '/blog/page:num'
+paginate: 1
+paginate_path: '/post/page:num'
 permalink: pretty
 
 version: 1.0.0
@@ -26,35 +26,26 @@ version: 1.0.0
 author:
   name: 훈이
   description: A passionate <strong>developer and researcher</strong>
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  gravatar: # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/%EC%A0%95%ED%9B%88-%EC%A1%B0-57ab01120/
     github:    https://github.com/jeonghoon1107
     facebook:  https://www.facebook.com/profile.php?id=100003606682273
-    email:     jeonghoon1107@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
   Home:
     - '/'
-  Blog:
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+  Post:
+    - '/post/'
   About:
     - '/about/'
-  Github Project:
-    - 'http://jeonghoon1107.github.io/'
-
-# Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
 
 hero:
   image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+  caption:
 
 # Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+# mathjax: true # whether support mathjax
+# google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+# disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
